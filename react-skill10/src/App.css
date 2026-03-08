@@ -1,0 +1,54 @@
+#root {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.student-manager {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr auto;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-btn,
+.delete-btn {
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: #1c7c54;
+}
+
+.add-btn:hover {
+  background: #47c28f;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #d9e0ea;
+  padding: 10px;
+  text-align: left;
+}
+
+.delete-btn {
+  background: #d64545;
+}
+
+.delete-btn:hover {
+  background: #b83434;
+}
