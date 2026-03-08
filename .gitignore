@@ -1,0 +1,13 @@
+# Eclipse workspace (NEVER commit)
+.metadata/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# Maven
+target/
+
+# Logs
+*.log
