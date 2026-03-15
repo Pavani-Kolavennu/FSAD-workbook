@@ -1,2 +1,1 @@
-This is first commit in main branch.
-This is second commit in feature-update branch.
+Commit in feature-update.
