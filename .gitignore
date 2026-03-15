@@ -1,13 +1,22 @@
-# Eclipse workspace (NEVER commit)
-.metadata/
+# Java build
+target/
+bin/
+build/
 
-# Eclipse project files
+# compiled files
+*.class
+
+# eclipse
+.metadata/
+.settings/
 .project
 .classpath
-.settings/
 
-# Maven
-target/
+# IntelliJ
+.idea/
 
-# Logs
+# VS Code
+.vscode/
+
+# logs
 *.log
