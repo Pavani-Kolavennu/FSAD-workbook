@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 20px 14px;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 18px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 14px;
+}
+
+.auth-page {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+}
+
+.auth-card,
+.page-card {
+  width: min(420px, 100%);
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.page-card {
+  width: min(680px, 100%);
+}
+
+
+input {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+}
+
+button {
+  border: 1px solid #bbb;
+  background: green;
+  color: white;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-card button {
+  margin-top: 14px;
+  width: 100%;
+}
+
+.auth-card button:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.switch-link {
+  margin: 14px 0 0;
+}
+
+.error {
+  color: #c0392b;
+  margin-top: 12px;
+}
+
+.page-card p {
+  margin: 8px 0;
+}
+
+
+  .auth-card,
+  .page-card {
+    padding: 20px;
+  }
